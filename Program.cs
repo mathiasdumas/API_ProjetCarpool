@@ -5,8 +5,8 @@ class Program
     static void Main(string[] args)
     {
         Connection.Connect();
-        DatabaseManager.CreateDB();
-        DatabaseManager.SeedDB();
+        //DatabaseManager.CreateDB();
+        //DatabaseManager.SeedDB();
 
         //Data.Employee employee = new Data.Employee("Mathias", "Dumas", new DateTime (2024-03-19));
         //employee.Insert();
